@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(cd $(dirname $0);pwd)
-RANK_TMP_PATH=$(cd $(dirname $0);pwd)
 ACCESSLOG_PATH="/var/log/httpd/access_log"
 TMPLOG_PATH="$SCRIPT_DIR/access_log.tmp"
 WHITELIST_PATH="$SCRIPT_DIR/while_list.txt"
